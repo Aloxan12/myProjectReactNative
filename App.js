@@ -1,38 +1,16 @@
 import type { Node } from "react";
 import React from "react";
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Counter } from "./src/01_Counter/Counter";
 
-const ImgPhone: () => Node = () => {
-  return (
-    <View>
-      <Image
-        source={{
-          uri: "https://reactnative.dev/img/tiny_logo.png",
-        }}
-        style={{ width: 50, height: 50 }}
-      />
-    </View>
-  );
-};
-const TextComp = (props) => {
-  return (
-    <View>
-      <Text>{props.value}</Text>
-    </View>
-  );
-};
+
 
 const App: () => Node = () => {
   return (
     <SafeAreaView>
       <ScrollView>
         <View style={styles.block}>
-          <Text>Hello</Text>
-          <TextComp value={'My new text'} />
-          <ImgPhone />
-          <TextComp value={'React'} />
-          <ImgPhone />
-          <ImgPhone />
+          <Counter />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -41,8 +19,9 @@ const App: () => Node = () => {
 
 const styles = StyleSheet.create({
   block: {
-    backgroundColor: "red",
+    backgroundColor: "#ccc",
     paddingHorizontal: 20,
+    paddingVertical: 20,
   },
 });
 
