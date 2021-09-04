@@ -1,27 +1,21 @@
 import type { Node } from "react";
 import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet, View } from "react-native";
-import { RgbBackground } from "./src/02_Style/RgbBackground";
+import { StyleSheet, View } from "react-native";
+import { FlexTable } from "./src/02_Style/FlexTable";
 
 
 const App: () => Node = () => {
   return (
-    <SafeAreaView>
-      <ScrollView>
         <View style={styles.block}>
-          <RgbBackground />
+          <FlexTable />
         </View>
-      </ScrollView>
-    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  block: {
+  block:{
     flex: 1,
-    backgroundColor: "#ccc",
-    paddingHorizontal: 20,
-    paddingVertical: 20,
+    flexDirection: 'column',
   },
 });
 
