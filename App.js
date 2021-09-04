@@ -1,8 +1,7 @@
 import type { Node } from "react";
 import React from "react";
-import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
-import { Counter } from "./src/01_Counter/Counter";
-
+import { SafeAreaView, ScrollView, StyleSheet, View } from "react-native";
+import { RgbBackground } from "./src/02_Style/RgbBackground";
 
 
 const App: () => Node = () => {
@@ -10,7 +9,7 @@ const App: () => Node = () => {
     <SafeAreaView>
       <ScrollView>
         <View style={styles.block}>
-          <Counter />
+          <RgbBackground />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -19,6 +18,7 @@ const App: () => Node = () => {
 
 const styles = StyleSheet.create({
   block: {
+    flex: 1,
     backgroundColor: "#ccc",
     paddingHorizontal: 20,
     paddingVertical: 20,
