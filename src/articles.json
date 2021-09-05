@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "India.com"
+      },
+      "author": "IANS",
+      "title": "Kids Found to Have Antibodies That Could Protect Against COVID-19 - India.com",
+      "description": "Children are much more likely to have cross-reactive antibodies than adults. Read on.",
+      "url": "https://www.india.com/lifestyle/kids-found-to-have-antibodies-that-could-protect-against-covid-19-4201438/",
+      "urlToImage": "https://www.india.com/wp-content/uploads/2020/11/COVID-19.jpg",
+      "publishedAt": "2020-11-07T17:05:01Z",
+      "content": "Scientists have found that some people, notably children, have antibodies reactive to SARS-CoV-2 in their blood, despite not ever having being infected with the virus. Also Read - Delhi Air Pollution\u2026 [+2590 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theguardian.comworld"
+      },
+      "author": "Guardian staff reporter",
+      "title": "Could a Covid vaccine bring back normality? - The Guardian",
+      "description": "With test and trace a shambles, many are pinning their hopes on a jab. But experts warn more measures will be needed to vanquish the coronavirus",
+      "url": "https://amp.theguardian.comworld/2020/nov/07/could-a-covid-vaccine-bring-back-normality",
+      "urlToImage": "https://i.guim.co.uk/img/media/e3e51ef77541dae4cd3453ee522d4a95e16cb625/0_696_8000_4800/master/8000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=106a5efe2f61f55e80be458bb38c94e5",
+      "publishedAt": "2020-11-07T17:00:00Z",
+      "content": "England is back in lockdown. It happened not a moment too soon. As of 2 November almost three-quarters of a million new cases have been officially counted since 21 September, when the governments sci\u2026 [+15630 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Post"
+      },
+      "author": "Ruth Ovens",
+      "title": "North Wales coronavirus area breakdown as death toll rises in 24 hour period - North Wales Live",
+      "description": "Across the country, 958 cases of Covid-19 have been confirmed",
+      "url": "https://www.dailypost.co.uk/news/north-wales-news/north-wales-coronavirus-area-breakdown-19241589",
+      "urlToImage": "https://i2-prod.dailypost.co.uk/incoming/article19239812.ece/ALTERNATES/s1200/0_Covid-19-Coronavirus-testing-centre-in-Wrexham.jpg",
+      "publishedAt": "2020-11-07T16:44:00Z",
+      "content": "There have been three further fatalities linked to coronavirus recorded in North Wales in the past 24 hours. \r\nIn the same time, 107 new positive tests have been reported, according to figures releas\u2026 [+3457 chars]"
+    }
+  ]
+}

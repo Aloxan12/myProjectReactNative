@@ -1,13 +1,13 @@
 import type { Node } from "react";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { FlexTable } from "./src/02_Style/FlexTable";
+import { MainPage } from "./src/MainPage";
 
 
 const App: () => Node = () => {
   return (
         <View style={styles.block}>
-          <FlexTable />
+          <MainPage />
         </View>
   );
 };
