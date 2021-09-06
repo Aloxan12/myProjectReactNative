@@ -10,17 +10,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
   },
-  firstContainer: {
-    backgroundColor: 'red',
-  },
-  secondContainer: {
-    backgroundColor: 'yellow',
-  },
-  thirdContainer: {
-    height: 200,
-    backgroundColor: 'green',
-  },
-
 });
 
 export default styles;

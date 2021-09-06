@@ -1,13 +1,13 @@
 import type { Node } from "react";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { MainPage } from "./src/MainPage";
+import { StudentsList } from "./src/04_TypeScript/TypeTasks";
 
 
 const App: () => Node = () => {
   return (
         <View style={styles.block}>
-          <MainPage />
+          <StudentsList />
         </View>
   );
 };
