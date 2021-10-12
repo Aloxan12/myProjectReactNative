@@ -7,7 +7,7 @@ export const Users: React.FC = ({navigation}) => {
   return (
       <SafeAreaView>
         <Text>Users</Text>
-        <Button title={"Main Page"} style={{ color: "green" }} onPress={()=> navigation.goBack()} />
+        <Button title={"Main Page"} style={{ color: "green" }} onPress={()=> navigation.navigate('MainPage')} />
       </SafeAreaView>
   );
 };
